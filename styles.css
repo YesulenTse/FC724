@@ -1,0 +1,80 @@
+header {
+  margin: -10px -10px 0;
+  width: 110%;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+#name {
+  aspect-ratio: 35/15;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+}
+nav {
+  width: 50%;
+  height: 50px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+body {
+  background-image: url('UofG.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+.welcome-box {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+ font-size: 200%;
+ font-family: sans-serif
+}
+.welcome-box, .section {
+background-color: rgba(255, 255, 255, 0.6);
+}
+.container, .footer{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  font-size: 100%
+}
+
+.section {
+  width: 45%;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+.section h2 {
+  margin-bottom: 10px;
+}
+
+.section p {
+  margin-bottom: 20px;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: auto;
+}
+.extra-img {
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
