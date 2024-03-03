@@ -7,36 +7,48 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<!-- navigation part to access other pages -->
   <header>
-    <img id="name" src="name.gif">
+    <!-- University of Glasgow link -->
+    <a href="https://www.gla.ac.uk/" id="uofg-link">
+      <img id="name" role="img" alt="University of Glasgow building" src="name.gif" aria-label="University of Glasgow"></a>
+    <!-- Navigation menu -->
     <nav>
         <ul>
-          <li><a href="information.html">INFO</a></li>
-          <li><a href="questionnaire.html">QUESTIONNAIRE</a></li>
+          <!-- Info page link -->
+          <li><a href="information.html" aria-label="Information Page">INFO</a></li>
+          <!-- Questionnaire page link -->
+          <li><a href="questionnaire.html" aria-label="Questionnaire Page">QUESTIONNAIRE</a></li>
         </ul>
-      </nav>
+    </nav>
   </header>
   <!-- the header is in a box -->
-    <div class="welcome-box">
-      <h1>Welcome</h1>
-      <p>Welcome to the Data Collection Website. On this platform, you can fill out a questionnaire to help us out.</p>
-    </div>
+  <div class="welcome-box">
+    <h1>Welcome</h1>
+    <p>Welcome to the Data Collection Website. On this platform, you can fill out a questionnaire to help us out.</p>
+  </div>
   <!-- on the home page, you can choose to go to two pages -->
   <div class="container">
     <!-- first section -->
     <div class="section">
       <h2>Information</h2>
       <p>To read more of the data collection and its purpose:</p>
+      <!-- Information page link -->
       <div class="box information">
-        <a target="_self" href="information.html"><img  class="extra-img" src="logo.jpg" alt="People working"></a>
+        <a target="_self" href="information.html" aria-label="Go to Information Page">
+          <img class="extra-img" src="logo.jpg" alt="Information Page" aria-label="Information Page">
+        </a>
       </div>
     </div>
     <!-- second section -->
     <div class="section">
       <h2>Questionnaire</h2>
       <p>To fill out the questionnaire:</p>
+      <!-- Questionnaire page link -->
       <div class="box questionnaire">
-        <a target="_self" href="questionnaire.html"><img class="extra-img" src="logo.jpg" alt="form"></a>
+        <a target="_self" href="questionnaire.html" aria-label="Go to Questionnaire Page">
+          <img class="extra-img" src="logo.jpg" alt="Questionnaire Page" aria-label="Questionnaire Page">
+        </a>
       </div>
     </div>
   </div>

@@ -1,20 +1,24 @@
 header {
   margin: -10px -10px 0;
-  width: 110%;
+  width: 110%; /* Extend width for better coverage */
   height: 70px;
   background-color: rgba(255, 255, 255, 0.6);
   display: flex;
   box-sizing: border-box;
   border: 2px solid black;
 }
-#name {
-  aspect-ratio: 35/15;
-  background-color: rgba(255, 255, 255, 0.6);
-  display: flex;
+h1 {
+font-size:6vw;
+}
+#name, #uofg-link {
+  aspect-ratio: 35/13;/*  aspect ratio for proper scaling */
+  display: flex; /*  flexbox for alignment */
 }
 nav {
   width: 50%;
   height: 50px;
+  margin:auto;
+  text-align: center; /* place items evenly */
 }
 
 nav > ul {
@@ -26,28 +30,28 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: sans-serif;
-  background-attachment: fixed;
+  background-attachment: fixed; /* the image will not move with text */
 }
 .welcome-box {
+  max-width: 60vw;
   padding: 20px;
   border: 2px solid black;
   border-radius: 10px;
-  margin: 20px;
+  margin: 20px auto;
   text-align: center;
- font-size: 200%;
- font-family: sans-serif
+  font-size: 200%;
+  font-family: sans-serif
 }
-.welcome-box, .section {
+.welcome-box, .section, footer {
 background-color: rgba(255, 255, 255, 0.6);
 }
 .container, .footer{
   display: flex;
   justify-content: space-around;
   margin: 20px;
-  font-size: 100%
 }
 
-.section {
+.section, footer {
   width: 45%;
   padding: 20px;
   border: 2px solid black;
@@ -72,9 +76,8 @@ background-color: rgba(255, 255, 255, 0.6);
   margin: auto;
 }
 .extra-img {
-  width: 100%;
   max-width: 200px;
   height: 200px;
-  object-fit: cover;
+  object-fit: cover;  /* let image stay within container */
   border-radius: 10px;
 }
