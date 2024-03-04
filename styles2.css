@@ -14,6 +14,7 @@ fieldset {
   border-bottom: 2px solid #3b3b4f;
   background-color: rgba(255, 255, 255, 0.6); /* semi-transparent so it looks more appealing*/
   border-radius: 10px;
+  margin-bottom: 1em
 }
 
 /* Remove bottom border for the last fieldset */
@@ -70,4 +71,7 @@ input[type="submit"]:hover {
 /* Styles for inline elements */
 .inline {
   display: inline;
+}
+.programme-type{
+margin-bottom: 2em
 }
