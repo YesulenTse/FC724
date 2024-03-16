@@ -1,6 +1,9 @@
+/* stylesheet for all three pages
+but the questionnaire page has an
+extra ss since it might be too long */
 header {
   margin: -10px -10px 0;
-  width: 110%; /* Extend width for better coverage */
+  width: 110%; /* extend width for better coverage */
   height: 70px;
   background-color: rgba(255, 255, 255, 0.6);
   display: flex;
@@ -21,6 +24,7 @@ nav {
   text-align: center; /* place items evenly */
 }
 
+/* style for the nav link on top of page */
 nav > ul {
   display: flex;
   justify-content: space-evenly;
@@ -33,7 +37,7 @@ body {
   background-attachment: fixed; /* the image will not move with text */
 }
 .welcome-box {
-  max-width: 60vw;
+  max-width: 60vw; /* 60% of the view so it doesn't take too much space */
   padding: 20px;
   border: 2px solid black;
   border-radius: 10px;

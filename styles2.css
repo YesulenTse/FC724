@@ -1,4 +1,5 @@
-/* Styles for the form */
+/* stylesheet for the questionnaire */
+/* styles for the form */
 form {
   width: 60vw;
   max-width: 500px;
@@ -7,28 +8,28 @@ form {
   padding-bottom: 2em;
 }
 
-/* Styles for the fieldset */
+/* styles for the fieldset */
 fieldset {
   border: 2px solid black;
   padding: 2em;
   border-bottom: 2px solid #3b3b4f;
   background-color: rgba(255, 255, 255, 0.6); /* semi-transparent so it looks more appealing*/
-  border-radius: 10px;
+  border-radius: 10px; /* for softer look */
   margin-bottom: 1em
 }
 
-/* Remove bottom border for the last fieldset */
+/* remove bottom border for the last fieldset for better look*/
 fieldset:last-of-type {
   border-bottom: none;
 }
 
-/* Styles for labels */
+/* styles for labels */
 label {
   display: block;
   margin: 0.5rem 0;
 }
 
-/* Styles for input, textarea, and select elements */
+/* styles for input, textarea, and select */
 input,
 textarea,
 select {
@@ -37,7 +38,7 @@ select {
   min-height: 2em;
 }
 
-/* Styles for text input and textarea */
+/* styles for text input and textarea */
 input,
 textarea {
   background-color: #ffffff;
@@ -45,11 +46,12 @@ textarea {
   color: #000000;
 }
 
-/* Styles for inline elements */
+/* styles for inline elements in radio element */
 .inline {
   width: unset;
   margin: 0 0.5em 0 0;
   vertical-align: middle;
+  display: inline;
 }
 
 /* Styles for submit button */
@@ -65,12 +67,6 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
   background-color: #cccccc; /* different when hovered over */
-}
-
-
-/* Styles for inline elements */
-.inline {
-  display: inline;
 }
 .programme-type{
 margin-bottom: 2em
